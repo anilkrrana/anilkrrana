@@ -4,11 +4,11 @@
 <h1 align="center">Hi 👋, I'm Anil Rana</h1>
 <h3 align="center">A passionate frontend developer from India</h3>
 
-<img align="right" alt="coding" width="300" src="https://raw.githubusercontent.com/hasibul-hasan-shuvo/hasibul-hasan-shuvo/main/images/coding-boy.gif">
+<img align="right" alt="coding" width="400" src="https://raw.githubusercontent.com/hasibul-hasan-shuvo/hasibul-hasan-shuvo/main/images/coding-boy.gif">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=anilkrrana&label=Profile%20views&color=0e75b6&style=flat" alt="anilkrrana" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=anilkrrana" alt="anilkrrana" /></a> </p>
+<!--<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=anilkrrana" alt="anilkrrana" /></a> </p>-->
 
 - 🔭 I’m currently working on **My Learning Skill**
 - 🌱 I’m currently learning **React.js**
