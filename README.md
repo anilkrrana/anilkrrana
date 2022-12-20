@@ -14,9 +14,10 @@
 - 🌱 I’m currently learning **React.js**
 - 👀 I'm Interested in **Full Stack Development**
 - 🤔 I’m looking for help with **...**
-- 💬 Ask me about **HTML, CSS(Bootstrap,Tailwind-Css), JS, React**
+- 💬 Ask me about **Frontend**
 - 📫 How to reach me **er.anilkrana@gmail.com**
 - 😄 Pronouns: **He/His**
+- ⚡ Fun fact: **I am funny**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
