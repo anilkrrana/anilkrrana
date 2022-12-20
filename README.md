@@ -22,9 +22,9 @@
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://twitter.com/anilkum64907224" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="anilkum64907224" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/anilkum64907224" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/anil-rana-09a283227/" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/anil-rana-09a283227" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/anil-rana-09a283227/" height="30" width="40" /></a>
 <a href="https://instagram.com/im_anil474" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="https://www.instagram.com/im_anil474/" height="30" width="40" /></a>
-<a href="https://www.youtube.com/c/anilrana4517" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="@anilrana4517" height="30" width="40" /></a>
+<a href="https://www.youtube.com/c/anil rana" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="@anilrana4517" height="30" width="40" /></a>
 <a href="https://www.codechef.com/users/anil0247" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/codechef.svg" alt="anil0247" height="30" width="40" /></a>
 <a href="https://www.leetcode.com/imanil474" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="imanil474" height="30" width="40" /></a>
 </p>
