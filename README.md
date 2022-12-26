@@ -2,7 +2,7 @@
 
 <h1 align="center">Hi 👋, I'm Anil Rana</h1>
 <h3 align="center">A passionate frontend developer from India</h3>
-<h3 align="center">👯 I’m looking to collaborate on Web Development</h3>
+
 <img align="right" alt="coding" width="400" src="https://raw.githubusercontent.com/hasibul-hasan-shuvo/hasibul-hasan-shuvo/main/images/coding-boy.gif">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=anilkrrana&label=Profile%20views&color=0e75b6&style=flat" alt="anilkrrana" /> </p>
@@ -13,6 +13,7 @@
 - 🌱 I’m currently learning **React.js**
 - 👀 I'm Interested in **Full Stack Development**
 - 🤔 I’m looking for help with **...**
+- 👯 I’m looking to collaborate on **Web Development**
 - 💬 Ask me about **Frontend**
 - 📫 How to reach me **er.anilkrana@gmail.com**
 - 😄 Pronouns: **He/His**
