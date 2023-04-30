@@ -1,4 +1,4 @@
-![Masterhead](https://mir-s3-cdn-cf.behance.net/project_modules/fs/79731568097599.5b50bca477735.jpg)
+![Masterhead](https://pbs.twimg.com/media/Fivwgv9X0AYM303?format=jpg&name=4096x4096)
 
 <h1 align="center">Hi 👋, I'm Anil Rana</h1>
 <h3 align="center">A passionate frontend developer from India</h3>
