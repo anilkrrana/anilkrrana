@@ -9,7 +9,7 @@
 
 <!--<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=anilkrrana" alt="anilkrrana" /></a> </p>-->
 
-- 🔭 I’m currently working on **My Learning Skill**
+- 🔭 I’m currently upgrading **My Skill**
 - 🌱 I’m currently learning **React.js and Next.js**
 - 👀 I'm Interested in **Full Stack Development**
 - 🤔 I’m looking for help with **...**
