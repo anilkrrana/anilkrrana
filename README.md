@@ -1,11 +1,12 @@
 ![Masterhead](https://pbs.twimg.com/media/Fivwgv9X0AYM303?format=jpg&name=4096x4096)
 
 <h1 align="center">Hi 👋, I'm Anil Rana</h1>
-<h3 align="center">A passionate frontend developer from India</h3>
+<h3 align="center">Web and mobile developer with a strong interest in projects that require both conceptual and analytical thinking. Fully-committed to develop innovative applications that users will love. Always eager to learn more.</h3>
 
 <img align="right" alt="coding" width="400" src="https://raw.githubusercontent.com/hasibul-hasan-shuvo/hasibul-hasan-shuvo/main/images/coding-boy.gif">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=anilkrrana&label=Profile%20views&color=0e75b6&style=flat" alt="anilkrrana" /> </p>
+
 
 <!--<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=anilkrrana" alt="anilkrrana" /></a> </p>-->
 
@@ -37,4 +38,6 @@
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=anilkrrana&" alt="anilkrrana" /></p>
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=anilkrrana&show_icons=true&locale=en&layout=compact" alt="anilkrrana" /></p>
+
+
     
