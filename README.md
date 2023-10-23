@@ -40,6 +40,5 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=anilkrrana&show_icons=true&locale=en" alt="anilkrrana" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=anilkrrana&" alt="anilkrrana" /></p>
-
-
+<p>i am your team partner connect with me</p>
     
