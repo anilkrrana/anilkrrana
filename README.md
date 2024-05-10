@@ -19,7 +19,7 @@
 
 - 📫 How to reach me **er.anilkrana@gmail.com**
 
-- 📄 Know about my experiences [https://drive.google.com/file/d/1IW016KOiILxFCAaq0QIKp9qLli-bBEwo/view?usp=sharing](https://drive.google.com/file/d/1IW016KOiILxFCAaq0QIKp9qLli-bBEwo/view?usp=sharing)
+- 📄 Know about my experiences [https://drive.google.com/file/d/1IW016KOiILxFCAaq0QIKp9qLli-bBEwo/view?usp=sharing](https://drive.google.com/file/d/1IW016KOiILxFCAaq0QIKp9qLli-bBEwo/view?usp=sharing](https://drive.google.com/file/d/1myTFvpr0hjdU8MXcpJcBPylhy1dkLl8J/view?usp=sharing)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
