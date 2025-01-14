@@ -9,13 +9,13 @@
 
 <p align="left"> <a href="https://twitter.com/anilkrana_" target="blank"><img src="https://img.shields.io/twitter/follow/anilkrana_?logo=twitter&style=for-the-badge" alt="anilkrana_" /></a> </p>
 
-- 🔭 I’m currently working on **My Learning Skills**
+- 🔭 I’m currently working at **Capgemini**
 
-- 🌱 I’m currently learning **Next.js**
+- 🌱 I’m currently learning **MuleSoft technology**
 
 - 👨‍💻 All of my projects are available at [https://anil-latest-portfolio.vercel.app/](https://anil-latest-portfolio.vercel.app/)
 
-- 💬 Ask me about **HTML, CSS(Bootstrap,Tailwind Css), JS, React**
+- 💬 Ask me about **HTML, CSS(Bootstrap,Tailwind Css), JS, React, Java, SpringBoot, MuleSoft, SQL, Postman**
 
 - 📫 How to reach me **er.anilkrana@gmail.com**
 
