@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 160" width="100%" height="100%">
+  <defs>
+    <linearGradient id="guide-bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+
+    <style>
+      .code { font-family: 'Fira Code', 'JetBrains Mono', monospace; }
+      @keyframes point-anim {
+        0%, 100% { transform: translateX(0px); }
+        50% { transform: translateX(6px); }
+      }
+      .pointer { animation: point-anim 1.5s infinite ease-in-out; }
+    </style>
+  </defs>
+
+  <rect width="1000" height="160" rx="12" fill="url(#guide-bg)" stroke="rgba(56, 189, 248, 0.3)" stroke-width="1.5" />
+
+  <!-- Character Avatar Guide (State 05: Tech Stack Guide) -->
+  <g transform="translate(80, 80)">
+    <!-- Aura Circle -->
+    <circle cx="0" cy="0" r="50" fill="rgba(56, 189, 248, 0.1)" stroke="#38bdf8" stroke-width="1.5" />
+
+    <!-- Head -->
+    <ellipse cx="0" cy="-2" rx="24" ry="26" fill="#e59866" />
+    <ellipse cx="-24" cy="-2" rx="4" ry="6" fill="#d97706" />
+    <ellipse cx="24" cy="-2" rx="4" ry="6" fill="#d97706" />
+
+    <!-- Hair -->
+    <path d="M -24 -8 C -24 -30, 24 -30, 24 -8 C 20 -24, 10 -27, 0 -27 C -10 -27, -20 -24, -24 -8 Z" fill="#111827" />
+
+    <!-- Signature Circular Glasses -->
+    <circle cx="-11" cy="-4" r="10" fill="rgba(56, 189, 248, 0.2)" stroke="#38bdf8" stroke-width="2" />
+    <circle cx="11" cy="-4" r="10" fill="rgba(56, 189, 248, 0.2)" stroke="#38bdf8" stroke-width="2" />
+    <line x1="-1" y1="-4" x2="1" y2="-4" stroke="#38bdf8" stroke-width="2" />
+
+    <!-- Eyes -->
+    <circle cx="-11" cy="-4" r="2.5" fill="#111827" />
+    <circle cx="11" cy="-4" r="2.5" fill="#111827" />
+
+    <!-- Smile -->
+    <path d="M -7 11 Q 0 16 7 11" fill="none" stroke="#9a3412" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <!-- Speech Callout & Pointer -->
+  <g transform="translate(160, 42)">
+    <!-- Speech Box -->
+    <rect x="0" y="0" width="760" height="76" rx="10" fill="#0f172a" stroke="#3b82f6" stroke-width="1" />
+    
+    <text x="25" y="32" class="code" fill="#38bdf8" font-size="14" font-weight="700">STATE 05 // HOLOGRAPHIC TECHNOLOGY MATRIX</text>
+    <text x="25" y="55" class="code" fill="#e2e8f0" font-size="13">"Categorized strictly by production usage. No bloated lists—just core enterprise tools I use daily."</text>
+
+    <!-- Animated Pointer Arrow -->
+    <g transform="translate(710, 30)" class="pointer">
+      <circle cx="15" cy="8" r="14" fill="#38bdf8" opacity="0.2"/>
+      <path d="M 8 8 L 22 8 M 16 2 L 22 8 L 16 14" fill="none" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+  </g>
+</svg>

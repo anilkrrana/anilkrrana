@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" width="100%" height="100%">
+  <defs>
+    <linearGradient id="term-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+
+    <linearGradient id="term-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <style>
+      @keyframes cursor-blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+      @keyframes line-appear {
+        from { opacity: 0; transform: translateY(4px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      .code { font-family: 'Fira Code', 'JetBrains Mono', 'Menlo', 'Consolas', monospace; font-size: 13px; }
+      .cursor { animation: cursor-blink 1s infinite; }
+      .prompt { fill: #38bdf8; font-weight: 700; }
+      .cmd { fill: #f3f4f6; font-weight: 600; }
+      .out-key { fill: #94a3b8; }
+      .out-val { fill: #34d399; font-weight: 500; }
+      .out-accent { fill: #c084fc; }
+      .comment { fill: #64748b; font-style: italic; }
+    </style>
+  </defs>
+
+  <!-- Main Terminal Card Outer Border & Shadow -->
+  <rect x="2" y="2" width="996" height="316" rx="12" fill="url(#term-bg)" stroke="url(#term-border)" stroke-width="1.5" />
+
+  <!-- Terminal Title Bar -->
+  <path d="M 2 14 Q 2 2 14 2 L 986 2 Q 998 2 998 14 L 998 42 L 2 42 Z" fill="#1e293b" />
+  <line x1="2" y1="42" x2="998" y2="42" stroke="#334155" stroke-width="1" />
+
+  <!-- Window Controls -->
+  <circle cx="25" cy="22" r="6" fill="#f87171" />
+  <circle cx="45" cy="22" r="6" fill="#fbbf24" />
+  <circle cx="65" cy="22" r="6" fill="#34d399" />
+  
+  <text x="500" y="26" class="code" fill="#94a3b8" font-size="12" text-anchor="middle">anil@developer-command-center: ~/profile (bash)</text>
+
+  <!-- Terminal Content Lines -->
+  <g transform="translate(24, 70)" class="code">
+    <!-- Line 1: whoami -->
+    <text x="0" y="0">
+      <tspan class="prompt">anil@github:~$</tspan> <tspan class="cmd">whoami</tspan>
+    </text>
+    <text x="0" y="22">
+      <tspan class="out-val">Anil Rana</tspan> <tspan class="out-key">| Senior Software Engineer @ Capgemini</tspan>
+    </text>
+
+    <!-- Line 2: stack -->
+    <text x="0" y="55">
+      <tspan class="prompt">anil@github:~$</tspan> <tspan class="cmd">sysctl --get-stack</tspan>
+    </text>
+    <text x="0" y="77">
+      <tspan class="out-key">CORE:</tspan> <tspan fill="#60a5fa">Java 21</tspan> <tspan fill="#64748b">•</tspan> <tspan fill="#60a5fa">Spring Boot 3</tspan> <tspan fill="#64748b">•</tspan> <tspan fill="#c084fc">MuleSoft Integration</tspan> <tspan fill="#64748b">•</tspan> <tspan class="out-accent">Spring AI</tspan>
+    </text>
+    <text x="0" y="97">
+      <tspan class="out-key">DATA &amp; INFRA:</tspan> <tspan fill="#34d399">PostgreSQL</tspan> <tspan fill="#64748b">•</tspan> <tspan fill="#f43f5e">Redis</tspan> <tspan fill="#64748b">•</tspan> <tspan fill="#38bdf8">Docker</tspan> <tspan fill="#64748b">•</tspan> <tspan fill="#fbbf24">GitHub Actions</tspan>
+    </text>
+
+    <!-- Line 3: active build -->
+    <text x="0" y="130">
+      <tspan class="prompt">anil@github:~$</tspan> <tspan class="cmd">cat ~/.currently_building.json</tspan>
+    </text>
+    <text x="0" y="152">
+      <tspan class="out-key">{ "project":</tspan> <tspan class="out-val">"OrderFlow"</tspan><tspan class="out-key">, "desc":</tspan> <tspan fill="#f3f4f6">"E-Commerce Order &amp; Payment Engine"</tspan><tspan class="out-key">, "status":</tspan> <tspan fill="#34d399">"PRODUCTION_READY"</tspan> <tspan class="out-key">}</tspan>
+    </text>
+
+    <!-- Line 4: problem solving -->
+    <text x="0" y="185">
+      <tspan class="prompt">anil@github:~$</tspan> <tspan class="cmd">leetcode --stats --summary</tspan>
+    </text>
+    <text x="0" y="207">
+      <tspan class="out-val">[✓] 300+ Problems Solved</tspan> <tspan class="out-key">(LeetCode / GFG / CodeChef / TCS CodeVita)</tspan> <tspan class="cursor" fill="#38bdf8">█</tspan>
+    </text>
+  </g>
+</svg>

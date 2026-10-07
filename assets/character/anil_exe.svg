@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 280" width="100%" height="100%">
+  <defs>
+    <linearGradient id="ai-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a16" />
+      <stop offset="50%" stop-color="#121026" />
+      <stop offset="100%" stop-color="#05050d" />
+    </linearGradient>
+
+    <linearGradient id="neon-purple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+
+    <filter id="purple-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <style>
+      @keyframes pulse {
+        0%, 100% { opacity: 0.9; }
+        50% { opacity: 0.4; }
+      }
+      .code { font-family: 'Fira Code', 'JetBrains Mono', monospace; }
+      .glowing-text { filter: drop-shadow(0 0 6px rgba(168, 85, 247, 0.6)); }
+      .pulse-dot { animation: pulse 2s infinite ease-in-out; }
+    </style>
+  </defs>
+
+  <!-- Panel Frame -->
+  <rect x="2" y="2" width="996" height="276" rx="14" fill="url(#ai-bg)" stroke="url(#neon-purple)" stroke-width="1.5" />
+
+  <!-- Header Strip -->
+  <path d="M 2 14 Q 2 2 14 2 L 986 2 Q 998 2 998 14 L 998 44 L 2 44 Z" fill="#18132b" />
+  <line x1="2" y1="44" x2="998" y2="44" stroke="#2e224e" stroke-width="1" />
+
+  <circle cx="25" cy="23" r="6" fill="#ec4899" />
+  <circle cx="45" cy="23" r="6" fill="#a855f7" />
+  <circle cx="65" cy="23" r="6" fill="#3b82f6" />
+
+  <text x="500" y="27" class="code glowing-text" fill="#e9d5ff" font-size="13" font-weight="700" text-anchor="middle">🤖 ANIL.exe — AI ENGINEERING ASSISTANT MODULE</text>
+
+  <!-- AI Conversation Blocks -->
+  <g transform="translate(30, 70)" class="code">
+    <!-- Prompt 1 -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="620" height="36" rx="8" fill="rgba(168, 85, 247, 0.1)" stroke="rgba(168, 85, 247, 0.3)" stroke-width="1" />
+      <text x="16" y="22" fill="#c084fc" font-size="12" font-weight="600">&gt; Prompt:</text>
+      <text x="85" y="22" fill="#f3f4f6" font-size="12">What core engineering challenges do you solve best?</text>
+    </g>
+
+    <!-- Response 1 -->
+    <g transform="translate(40, 48)">
+      <rect x="0" y="0" width="880" height="54" rx="8" fill="rgba(30, 27, 75, 0.6)" stroke="rgba(99, 102, 241, 0.3)" stroke-width="1" />
+      <text x="16" y="22" fill="#34d399" font-size="12" font-weight="700">Anil.exe:</text>
+      <text x="90" y="22" fill="#e2e8f0" font-size="12">"High-throughput enterprise backends, resilient REST/gRPC APIs, MuleSoft API-led</text>
+      <text x="90" y="40" fill="#e2e8f0" font-size="12">integrations, event-driven payment pipelines, and AI integrations using Spring AI &amp; LLMs."</text>
+    </g>
+
+    <!-- Prompt 2 -->
+    <g transform="translate(0, 118)">
+      <rect x="0" y="0" width="480" height="36" rx="8" fill="rgba(168, 85, 247, 0.1)" stroke="rgba(168, 85, 247, 0.3)" stroke-width="1" />
+      <text x="16" y="22" fill="#c084fc" font-size="12" font-weight="600">&gt; Prompt:</text>
+      <text x="85" y="22" fill="#f3f4f6" font-size="12">Current system execution mode?</text>
+    </g>
+
+    <!-- Response 2 -->
+    <g transform="translate(40, 166)">
+      <rect x="0" y="0" width="600" height="34" rx="8" fill="rgba(16, 185, 129, 0.1)" stroke="rgba(16, 185, 129, 0.4)" stroke-width="1" />
+      <circle cx="20" cy="17" r="5" fill="#10b981" class="pulse-dot" />
+      <text x="35" y="21" fill="#10b981" font-size="12" font-weight="700">STATUS:</text>
+      <text x="100" y="21" fill="#f3f4f6" font-size="12">BUILDING PRODUCTION SYSTEMS &amp; OPEN SOURCE COLLABS 🚀</text>
+    </g>
+  </g>
+
+  <!-- Side Avatar Graphic (Anil Head with Circular Glasses & Neon AI Aura) -->
+  <g transform="translate(860, 130)">
+    <circle cx="0" cy="0" r="52" fill="#1e1b4b" stroke="#a855f7" stroke-width="2" filter="url(#purple-glow)"/>
+    
+    <!-- Head -->
+    <ellipse cx="0" cy="4" rx="22" ry="24" fill="#e59866" />
+    <path d="M -22 -2 C -22 -24, 22 -24, 22 -2 C 18 -18, 8 -22, 0 -22 C -8 -22, -18 -18, -22 -2 Z" fill="#111827" />
+
+    <!-- Round Glasses -->
+    <circle cx="-10" cy="2" r="9" fill="none" stroke="#38bdf8" stroke-width="2" />
+    <circle cx="10" cy="2" r="9" fill="none" stroke="#38bdf8" stroke-width="2" />
+    <line x1="-1" y1="2" x2="1" y2="2" stroke="#38bdf8" stroke-width="2" />
+
+    <!-- Eyes -->
+    <circle cx="-10" cy="2" r="2.5" fill="#111827" />
+    <circle cx="10" cy="2" r="2.5" fill="#111827" />
+
+    <!-- Smile -->
+    <path d="M -6 16 Q 0 21 6 16" fill="none" stroke="#9a3412" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+</svg>
