@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sc-e-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080c18" />
+      <stop offset="100%" stop-color="#02050e" />
+    </linearGradient>
+
+    <linearGradient id="timeline-track" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="33%" stop-color="#818cf8" />
+      <stop offset="66%" stop-color="#c084fc" />
+      <stop offset="100%" stop-color="#34d399" />
+    </linearGradient>
+
+    <style>
+      .code-font { font-family: 'Fira Code', 'JetBrains Mono', monospace; }
+      .sans-font { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+      @keyframes pulse-glow { 0%, 100% { fill: #34d399; } 50% { fill: #6ee7b7; } }
+      .active-dot { animation: pulse-glow 2s infinite ease-in-out; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="320" rx="16" fill="url(#sc-e-bg)" stroke="rgba(56, 189, 248, 0.2)" stroke-width="1.5" />
+
+  <!-- Section Title -->
+  <g transform="translate(60, 45)">
+    <text x="0" y="0" class="code-font" fill="#00f2fe" font-size="12" font-weight="700">ANILVERSE // SCENE E — THE DEVELOPER'S JOURNEY</text>
+    <text x="0" y="26" class="sans-font" fill="#ffffff" font-size="28" font-weight="800">Engineering Milestones &amp; Continuous Growth</text>
+  </g>
+
+  <!-- Horizontal Timeline Track -->
+  <g transform="translate(80, 170)">
+    <!-- Main Glowing Line -->
+    <line x1="0" y1="0" x2="1040" y2="0" stroke="url(#timeline-track)" stroke-width="4" stroke-linecap="round" />
+
+    <!-- Node 1: 2024 Education -->
+    <g transform="translate(40, 0)">
+      <circle cx="0" cy="0" r="10" fill="#0f172a" stroke="#38bdf8" stroke-width="3" />
+      <circle cx="0" cy="0" r="4" fill="#38bdf8" />
+
+      <!-- Node Content Box -->
+      <rect x="-90" y="-90" width="180" height="60" rx="8" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+      <text x="0" y="-68" class="code-font" fill="#38bdf8" font-size="12" font-weight="700" text-anchor="middle">🎓 2024</text>
+      <text x="0" y="-50" class="sans-font" fill="#ffffff" font-size="11" font-weight="600" text-anchor="middle">B.Tech in CSE</text>
+      <text x="0" y="-36" class="code-font" fill="#94a3b8" font-size="9" text-anchor="middle">Computer Science Core</text>
+    </g>
+
+    <!-- Node 2: 2024 Capgemini -->
+    <g transform="translate(360, 0)">
+      <circle cx="0" cy="0" r="10" fill="#0f172a" stroke="#818cf8" stroke-width="3" />
+      <circle cx="0" cy="0" r="4" fill="#818cf8" />
+
+      <rect x="-95" y="30" width="190" height="60" rx="8" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+      <text x="0" y="52" class="code-font" fill="#818cf8" font-size="12" font-weight="700" text-anchor="middle">🏢 2024</text>
+      <text x="0" y="70" class="sans-font" fill="#ffffff" font-size="11" font-weight="600" text-anchor="middle">Joined Capgemini</text>
+      <text x="0" y="84" class="code-font" fill="#94a3b8" font-size="9" text-anchor="middle">Software Engineer</text>
+    </g>
+
+    <!-- Node 3: 2025 Integration Engineering -->
+    <g transform="translate(680, 0)">
+      <circle cx="0" cy="0" r="10" fill="#0f172a" stroke="#c084fc" stroke-width="3" />
+      <circle cx="0" cy="0" r="4" fill="#c084fc" />
+
+      <rect x="-105" y="-90" width="210" height="60" rx="8" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+      <text x="0" y="-68" class="code-font" fill="#c084fc" font-size="12" font-weight="700" text-anchor="middle">⚙️ 2025</text>
+      <text x="0" y="-50" class="sans-font" fill="#ffffff" font-size="11" font-weight="600" text-anchor="middle">Integration Engineering</text>
+      <text x="0" y="-36" class="code-font" fill="#94a3b8" font-size="9" text-anchor="middle">MuleSoft &amp; Enterprise APIs</text>
+    </g>
+
+    <!-- Node 4: 2026 Senior Software Engineer -->
+    <g transform="translate(980, 0)">
+      <circle cx="0" cy="0" r="14" fill="#0f172a" stroke="#34d399" stroke-width="3" />
+      <circle cx="0" cy="0" r="6" fill="#34d399" class="active-dot" />
+
+      <rect x="-115" y="30" width="230" height="65" rx="8" fill="rgba(16, 185, 129, 0.12)" stroke="#34d399" stroke-width="1.5"/>
+      <text x="0" y="52" class="code-font" fill="#34d399" font-size="12" font-weight="800" text-anchor="middle">🚀 2026</text>
+      <text x="0" y="70" class="sans-font" fill="#ffffff" font-size="12" font-weight="700" text-anchor="middle">Senior Software Engineer</text>
+      <text x="0" y="85" class="code-font" fill="#a7f3d0" font-size="9" text-anchor="middle">Java Backend + AI + System Design</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sc-b-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e1a" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#060913" />
+    </linearGradient>
+
+    <linearGradient id="cyan-line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe" />
+      <stop offset="50%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+
+    <style>
+      .code-font { font-family: 'Fira Code', 'JetBrains Mono', monospace; }
+      .sans-font { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+      @keyframes float-panel { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-5px); } }
+      @keyframes pulse-cursor { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+      .floating-box { animation: float-panel 3.5s infinite ease-in-out; }
+      .cursor { animation: pulse-cursor 1s infinite; }
+    </style>
+  </defs>
+
+  <!-- Container -->
+  <rect width="1200" height="280" rx="14" fill="url(#sc-b-bg)" stroke="rgba(0, 242, 254, 0.25)" stroke-width="1.5" />
+
+  <!-- Floating Holographic Grid Connection Lines -->
+  <path d="M 50 140 Q 300 60 600 140 T 1150 140" fill="none" stroke="url(#cyan-line)" stroke-width="2" stroke-dasharray="6,6" opacity="0.6" />
+
+  <!-- SCENE B CHARACTER (ANIL RANA MASCOT POINTING TO WORLD) -->
+  <g transform="translate(80, 50)">
+    <!-- Aura Circle -->
+    <circle cx="60" cy="90" r="55" fill="rgba(0, 242, 254, 0.08)" stroke="#00f2fe" stroke-width="1.5" />
+
+    <!-- Head -->
+    <ellipse cx="60" cy="88" rx="26" ry="28" fill="#e59866" />
+    <ellipse cx="34" cy="88" rx="4" ry="7" fill="#d97706" />
+    <ellipse cx="86" cy="88" rx="4" ry="7" fill="#d97706" />
+
+    <!-- Short Dark Hair -->
+    <path d="M 34 80 C 34 56, 86 56, 86 80 C 80 62, 70 58, 60 58 C 50 58, 40 62, 34 80 Z" fill="#111827" />
+
+    <!-- Perfectly Round Glasses -->
+    <circle cx="48" cy="85" r="10" fill="rgba(0, 242, 254, 0.15)" stroke="#00f2fe" stroke-width="2" />
+    <circle cx="72" cy="85" r="10" fill="rgba(0, 242, 254, 0.15)" stroke="#00f2fe" stroke-width="2" />
+    <line x1="58" y1="85" x2="62" y2="85" stroke="#00f2fe" stroke-width="2" />
+
+    <!-- Eyes -->
+    <circle cx="48" cy="85" r="2.5" fill="#111827" />
+    <circle cx="72" cy="85" r="2.5" fill="#111827" />
+
+    <!-- Smile -->
+    <path d="M 52 102 Q 60 107 68 102" fill="none" stroke="#9a3412" stroke-width="1.5" stroke-linecap="round" />
+
+    <!-- Hoodie Torso & Pointing Arm -->
+    <path d="M 25 150 Q 60 125 95 150 L 85 180 L 35 180 Z" fill="#1e293b" stroke="#00f2fe" stroke-width="1.5" />
+    
+    <!-- Pointing Arm Visual -->
+    <path d="M 85 135 L 135 125 L 142 133 L 95 148 Z" fill="#e59866" />
+    <polygon points="142,125 155,123 148,131" fill="#e59866" />
+  </g>
+
+  <!-- SCENE B CONTENT: Floating Code Windows & Terminal Callout -->
+  <g transform="translate(260, 45)">
+    <!-- Chapter Tag -->
+    <text x="0" y="20" class="code-font" fill="#00f2fe" font-size="12" font-weight="700">ANILVERSE // SCENE B — ENTER MY WORLD</text>
+    
+    <!-- Narrative Quote -->
+    <text x="0" y="55" class="sans-font" fill="#ffffff" font-size="28" font-weight="800">"Curiosity brought you here. Let's build something."</text>
+    <text x="0" y="80" class="sans-font" fill="#94a3b8" font-size="14">Step inside my engineering lab—where Java backend systems, MuleSoft APIs &amp; AI converge.</text>
+
+    <!-- Floating Code Fragment 1: Java/Spring -->
+    <g transform="translate(0, 105)" class="floating-box">
+      <rect x="0" y="0" width="280" height="70" rx="8" fill="#0f172a" stroke="rgba(56, 189, 248, 0.4)" stroke-width="1" />
+      <text x="14" y="24" class="code-font" fill="#38bdf8" font-size="11">@Service // Backend Engine</text>
+      <text x="14" y="44" class="code-font" fill="#e2e8f0" font-size="11">public class <tspan fill="#f59e0b">ApiGateway</tspan> {</text>
+      <text x="26" y="60" class="code-font" fill="#34d399">integrateMuleSoft();</text>
+    </g>
+
+    <!-- Floating Code Fragment 2: Terminal -->
+    <g transform="translate(300, 105)" class="floating-box">
+      <rect x="0" y="0" width="320" height="70" rx="8" fill="#090d16" stroke="rgba(168, 85, 247, 0.4)" stroke-width="1" />
+      <text x="14" y="24" class="code-font" fill="#a855f7" font-size="11">anil@anilverse:~$ status</text>
+      <text x="14" y="44" class="code-font" fill="#34d399" font-size="11">[✓] Java 21 | Spring AI | Redis</text>
+      <text x="14" y="60" class="code-font" fill="#e2e8f0" font-size="11">Ready to scale... <tspan class="cursor" fill="#00f2fe">█</tspan></text>
+    </g>
+  </g>
+</svg>

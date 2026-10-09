@@ -1,76 +1,42 @@
 <!--
 ==============================================================================
-🚀 ANIL RANA - DEVELOPER COMMAND CENTER README
-GitHub: https://github.com/anilkrrana
-Role: Senior Software Engineer | Java Backend | MuleSoft | AI
+🌌 ANILVERSE — A PERSONAL DEVELOPER UNIVERSE BY ANIL RANA
+GitHub Username: anilkrrana
+Role: Senior Software Engineer @ Capgemini
 ==============================================================================
 -->
 
 <div align="center">
 
-  <!-- TOP COMPACT NAVIGATION BAR -->
+  <!-- TOP EDITORIAL NAVIGATION -->
   <p>
-    <a href="#about-me"><b>[ ABOUT ]</b></a> &nbsp;•&nbsp;
-    <a href="#tech-matrix"><b>[ TECH STACK ]</b></a> &nbsp;•&nbsp;
-    <a href="#featured-projects"><b>[ PROJECTS ]</b></a> &nbsp;•&nbsp;
-    <a href="#engineering-journey"><b>[ JOURNEY ]</b></a> &nbsp;•&nbsp;
-    <a href="#problem-solving"><b>[ PROBLEM SOLVING ]</b></a> &nbsp;•&nbsp;
-    <a href="#github-stats"><b>[ STATS ]</b></a> &nbsp;•&nbsp;
+    <a href="#entrance"><b>[ ENTRANCE ]</b></a> &nbsp;•&nbsp;
+    <a href="#engineering-lab"><b>[ ENGINEERING LAB ]</b></a> &nbsp;•&nbsp;
+    <a href="#project-portal"><b>[ ORDERFLOW ]</b></a> &nbsp;•&nbsp;
+    <a href="#journey"><b>[ JOURNEY ]</b></a> &nbsp;•&nbsp;
+    <a href="#contributions"><b>[ CONTRIBUTIONS ]</b></a> &nbsp;•&nbsp;
     <a href="#connect"><b>[ CONNECT ]</b></a>
   </p>
 
-  <!-- HERO SECTION SVG BANNER -->
-  <a href="https://github.com/anilkrrana">
-    <img src="assets/hero/hero_banner.svg" alt="Anil Rana - Developer Command Center Hero" width="100%" />
-  </a>
+  <!-- SCENE A — THE ENTRANCE -->
+  <a id="entrance"></a>
+  <img src="assets/anilverse/scene_a_entrance.svg" alt="ANILVERSE Scene A: Entrance &amp; Workstation" width="100%" />
 
 </div>
 
 <br />
 
-<!-- TERMINAL COMMAND CENTER -->
+<!-- SCENE B — ENTER MY WORLD -->
 <div align="center">
-  <img src="assets/hero/terminal_header.svg" alt="Anil Rana Terminal Header" width="100%" />
+  <img src="assets/anilverse/scene_b_enter_world.svg" alt="ANILVERSE Scene B: Enter My World" width="100%" />
 </div>
 
 <br />
 
-<!-- ANIL.EXE AI ASSISTANT MODULE -->
+<!-- SCENE C — INSIDE THE ENGINEERING LAB -->
+<a id="engineering-lab"></a>
 <div align="center">
-  <img src="assets/character/anil_exe.svg" alt="ANIL.exe AI Assistant Interface" width="100%" />
-</div>
-
-<br />
-
-<a id="about-me"></a>
-## 👨‍💻 ABOUT ME — STATE 03: THE BACKEND ENGINE
-
-<table>
-  <tr>
-    <td width="65%" valign="top">
-      <h3>👋 Hey, I'm Anil Rana</h3>
-      <p><b>Senior Software Engineer at Capgemini</b> specializing in building production-grade enterprise backend systems, resilient REST APIs, event-driven architectures, and MuleSoft integration pipelines.</p>
-      <ul>
-        <li>🚀 <b>Core Focus:</b> Java 21, Spring Boot 3.x, MuleSoft API-led connectivity, Redis caching, &amp; System Design.</li>
-        <li>🤖 <b>AI Integration:</b> Integrating LLM APIs and intelligent agent workflows using <b>Spring AI</b> into legacy and modern backend architectures.</li>
-        <li>⚡ <b>Engineering Philosophy:</b> High performance, zero unnecessary complexity, clean architecture, and continuous algorithmic problem solving.</li>
-      </ul>
-    </td>
-    <td width="35%" align="center" valign="middle">
-      <img src="https://img.shields.io/badge/Current_Role-Senior_Software_Engineer-00f2fe?style=for-the-badge&logo=capgemini&logoColor=white" alt="Role Badge" /><br/><br/>
-      <img src="https://img.shields.io/badge/Company-Capgemini-006699?style=for-the-badge&logo=capgemini&logoColor=white" alt="Capgemini" /><br/><br/>
-      <img src="https://img.shields.io/badge/Primary_Stack-Java_%7C_Spring_Boot_%7C_MuleSoft-818cf8?style=for-the-badge&logo=openjdk&logoColor=white" alt="Stack Badge" />
-    </td>
-  </tr>
-</table>
-
-<br />
-
-<a id="tech-matrix"></a>
-## ⚡ STATE 05 — HOLOGRAPHIC TECHNOLOGY MATRIX
-
-<div align="center">
-  <img src="assets/character/tech_guide.svg" alt="Tech Guide Mascot" width="100%" />
+  <img src="assets/anilverse/scene_c_lab.svg" alt="ANILVERSE Scene C: Inside the Engineering Lab" width="100%" />
 </div>
 
 <br />
@@ -78,115 +44,70 @@ Role: Senior Software Engineer | Java Backend | MuleSoft | AI
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h4>☕ BACKEND ENGINEERING</h4>
-      <p>
-        <img src="https://img.shields.io/badge/Java_21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
-        <img src="https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" />
-        <img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white" />
-        <img src="https://img.shields.io/badge/REST_APIs-00559C?style=for-the-badge&logo=postman&logoColor=white" />
-        <img src="https://img.shields.io/badge/Microservices-818cf8?style=for-the-badge&logo=kubernetescertified&logoColor=white" />
-        <img src="https://img.shields.io/badge/Spring_AI-6DB33F?style=for-the-badge&logo=spring&logoColor=white" />
-      </p>
+      <h4>☕ BACKEND ENGINEERING CORE</h4>
+      <ul>
+        <li><b>Java 21 &amp; Spring Boot 3.x:</b> High-throughput microservices, Spring Security JWT authentication, and idempotent REST APIs.</li>
+        <li><b>AI &amp; Smart Workflows:</b> Spring AI integration, LLM agent workflows, and intelligent automated backend pipelines.</li>
+      </ul>
     </td>
     <td width="50%" valign="top">
       <h4>⚙️ INTEGRATION &amp; MIDDLEWARE</h4>
-      <p>
-        <img src="https://img.shields.io/badge/MuleSoft-00A1E0?style=for-the-badge&logo=mulesoft&logoColor=white" />
-        <img src="https://img.shields.io/badge/DataWeave-00A1E0?style=for-the-badge&logo=salesforce&logoColor=white" />
-        <img src="https://img.shields.io/badge/API--Led_Connectivity-00559C?style=for-the-badge&logo=diagramsdotnet&logoColor=white" />
-        <img src="https://img.shields.io/badge/Mule_Gateway-00A1E0?style=for-the-badge&logo=nginx&logoColor=white" />
-        <img src="https://img.shields.io/badge/ActiveMQ-D22128?style=for-the-badge&logo=apache&logoColor=white" />
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🗄️ DATABASE &amp; CACHING</h4>
-      <p>
-        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
-        <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-        <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
-        <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
-        <img src="https://img.shields.io/badge/Flyway-CC0200?style=for-the-badge&logo=flyway&logoColor=white" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h4>🛠️ DEVOPS, AI &amp; TOOLS</h4>
-      <p>
-        <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-        <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
-        <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-        <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" />
-        <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
-        <img src="https://img.shields.io/badge/LLM_APIs-a855f7?style=for-the-badge&logo=openai&logoColor=white" />
-      </p>
+      <ul>
+        <li><b>MuleSoft API-Led Connectivity:</b> Designing System, Process, and Experience APIs with Mule Gateway.</li>
+        <li><b>DataWeave &amp; Messaging:</b> Complex enterprise data transformations, activeMQ event queues, and system interoperability.</li>
+      </ul>
     </td>
   </tr>
 </table>
 
 <br />
 
-<a id="featured-projects"></a>
-## 🧩 STATE 04 &amp; 06 — FEATURED ENGINEERING PROJECTS
-
+<!-- SCENE D — THE PROJECT PORTAL: ORDERFLOW -->
+<a id="project-portal"></a>
 <div align="center">
-  <a href="https://github.com/anilkrrana/orderflow">
-    <img src="assets/projects/orderflow_card.svg" alt="OrderFlow Featured Project Card" width="100%" />
-  </a>
+  <img src="assets/anilverse/scene_d_orderflow.svg" alt="ANILVERSE Scene D: OrderFlow Project Portal Showcase" width="100%" />
 </div>
 
 <br />
 
 ### 🚀 [OrderFlow](https://github.com/anilkrrana/orderflow) — Production Order & Payment Platform
-* **Engineering Problem:** Scalable, transactional order processing engine handling concurrent payments, inventory state transitions, and automated database migrations.
-* **Core Technology:** `Java 21` • `Spring Boot 3` • `Spring Security + JWT` • `PostgreSQL` • `Redis Caching` • `Razorpay Webhooks` • `Flyway DB` • `Docker` • `GitHub Actions CI/CD`
-* **Key Features:**
-  * JWT-secured stateless authentication with role-based access control.
-  * Razorpay payment gateway integration with idempotent webhook processing.
+* **Engineering Objective:** Transactional, event-driven order management engine handling concurrent payment states and database migrations.
+* **Verified Stack:** `Java 21` • `Spring Boot 3` • `Spring Security + JWT` • `PostgreSQL` • `Redis Caching` • `Razorpay Webhooks` • `Flyway DB` • `Docker` • `GitHub Actions CI/CD`
+* **Architectural Highlights:**
+  * Stateless JWT authentication with role-based authorization filters.
+  * Razorpay payment gateway integration with idempotent webhook handlers.
   * Low-latency order status query caching powered by Redis.
-  * Automated database versioning and seamless containerization via Docker.
+  * Automated DB versioning via Flyway and containerization with Docker.
 
 <br />
 
-<a id="engineering-journey"></a>
-## 📈 STATE 07 — ENGINEERING JOURNEY
-
+<!-- SCENE E — THE DEVELOPER'S JOURNEY -->
+<a id="journey"></a>
 <div align="center">
-  <img src="assets/journey/timeline.svg" alt="Anil Rana Engineering Timeline" width="100%" />
+  <img src="assets/anilverse/scene_e_journey.svg" alt="ANILVERSE Scene E: The Developer's Journey Timeline" width="100%" />
 </div>
 
 <br />
 
-<a id="problem-solving"></a>
-## 🧩 STATE 09 — DEVELOPER MODE: PROBLEM SOLVING
-
+<!-- SCENE F — THE CONTRIBUTION UNIVERSE -->
+<a id="contributions"></a>
 <div align="center">
-  <img src="assets/problem_solving/leetcode_card.svg" alt="Problem Solving Stats Card" width="100%" />
+  <img src="assets/anilverse/scene_f_contributions.svg" alt="ANILVERSE Scene F: Contribution Universe &amp; Problem Solving" width="100%" />
 </div>
 
 <br />
-
-<a id="github-stats"></a>
-## 📊 STATE 08 — GITHUB ACTIVITY MONITOR
 
 <div align="center">
   <table width="100%">
     <tr>
       <td width="50%" align="center">
         <a href="https://github.com/anilkrrana">
-          <img src="https://github-readme-stats.vercel.app/api?username=anilkrrana&show_icons=true&theme=dark&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff&border_color=30363d&hide_border=false" alt="Anil Rana GitHub Stats" width="100%" />
+          <img src="https://github-readme-stats.vercel.app/api?username=anilkrrana&show_icons=true&theme=dark&bg_color=070a14&title_color=00f2fe&text_color=94a3b8&icon_color=00f2fe&border_color=1e293b&hide_border=false" alt="Anil Rana GitHub Stats" width="100%" />
         </a>
       </td>
       <td width="50%" align="center">
         <a href="https://github.com/anilkrrana">
-          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anilkrrana&layout=compact&theme=dark&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff&border_color=30363d&hide_border=false" alt="Anil Rana Top Languages" width="100%" />
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2" align="center">
-        <a href="https://github.com/anilkrrana">
-          <img src="https://github-readme-streak-stats.herokuapp.com/?user=anilkrrana&theme=dark&background=0d1117&stroke=30363d&ring=58a6ff&fire=58a6ff&currStreakNum=58a6ff&sidenums=c9d1d9&dates=c9d1d9" alt="Anil Rana Streak Stats" width="80%" />
+          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anilkrrana&layout=compact&theme=dark&bg_color=070a14&title_color=00f2fe&text_color=94a3b8&icon_color=00f2fe&border_color=1e293b&hide_border=false" alt="Anil Rana Top Languages" width="100%" />
         </a>
       </td>
     </tr>
@@ -195,35 +116,43 @@ Role: Senior Software Engineer | Java Backend | MuleSoft | AI
 
 <br />
 
+<!-- SCENE G — THE FAREWELL & VERIFIED CONNECT LINKS -->
 <a id="connect"></a>
-## 🌎 STATE 10 — CONNECT &amp; COLLABORATE
-
 <div align="center">
-  <img src="assets/contact/contact_footer.svg" alt="Contact Footer" width="100%" />
+  <img src="assets/anilverse/scene_g_farewell.svg" alt="ANILVERSE Scene G: Farewell &amp; Contact Header" width="100%" />
 </div>
 
 <br />
 
 <div align="center">
 
-  <a href="https://linkedin.com/in/anilkrrana" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  <!-- VERIFIED USER SOCIAL BUTTONS -->
+  <a href="https://www.linkedin.com/in/anil-kumar-rana/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   &nbsp;
-  <a href="mailto:anilkrrana@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  <a href="https://anil-kumar-rana.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-00F2FE?style=for-the-badge&logo=vercel&logoColor=black" alt="Portfolio" />
   </a>
   &nbsp;
-  <a href="https://leetcode.com/anilkrrana" target="_blank">
+  <a href="mailto:er.anilkrana@gmail.com">
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  &nbsp;
+  <a href="https://leetcode.com/u/imanil474/" target="_blank">
     <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
   </a>
   &nbsp;
-  <a href="https://github.com/anilkrrana">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  <a href="https://www.geeksforgeeks.org/profile/imanil474?tab=activity" target="_blank">
+    <img src="https://img.shields.io/badge/GeeksforGeeks-298D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white" alt="GeeksforGeeks" />
   </a>
   &nbsp;
-  <a href="https://www.geeksforgeeks.org/user/anilkrrana/" target="_blank">
-    <img src="https://img.shields.io/badge/GeeksforGeeks-298D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white" alt="GeeksforGeeks" />
+  <a href="https://www.youtube.com/@webtechnil" target="_blank">
+    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" />
+  </a>
+  &nbsp;
+  <a href="https://x.com/anilkrana_" target="_blank">
+    <img src="https://img.shields.io/badge/X_Twitter-000000?style=for-the-badge&logo=x&logoColor=white" alt="X Twitter" />
   </a>
 
 </div>
@@ -231,7 +160,7 @@ Role: Senior Software Engineer | Java Backend | MuleSoft | AI
 <br />
 
 <div align="center">
-  <p class="code" fill="#64748b">
-    <i>Designed with precision for Anil Rana's GitHub Command Center • Powered by Modern SVG Animation &amp; Clean Architecture</i>
+  <p>
+    <sub fill="#64748b">🌌 <i>ANILVERSE Architecture v4.0 • Designed for Anil Rana (Senior Software Engineer @ Capgemini)</i></sub>
   </p>
 </div>

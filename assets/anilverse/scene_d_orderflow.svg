@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sc-d-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070d1a" />
+      <stop offset="50%" stop-color="#0f192e" />
+      <stop offset="100%" stop-color="#050a16" />
+    </linearGradient>
+
+    <linearGradient id="glow-cyan-violet" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe" />
+      <stop offset="50%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+
+    <style>
+      .code-font { font-family: 'Fira Code', 'JetBrains Mono', monospace; }
+      .sans-font { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+      @keyframes pulse-flow { 0%, 100% { stroke-dashoffset: 0; } 50% { stroke-dashoffset: -20; } }
+      .flow-line { stroke-dasharray: 8,4; animation: pulse-flow 2s linear infinite; }
+    </style>
+  </defs>
+
+  <!-- Container Frame -->
+  <rect width="1200" height="440" rx="16" fill="url(#sc-d-bg)" stroke="url(#glow-cyan-violet)" stroke-width="2" />
+
+  <!-- TOP HEADER & PROJECT PORTAL TITLE -->
+  <g transform="translate(60, 45)">
+    <rect x="0" y="0" width="180" height="26" rx="13" fill="rgba(0, 242, 254, 0.12)" stroke="#00f2fe" stroke-width="1" />
+    <text x="90" y="17" class="code-font" fill="#00f2fe" font-size="11" font-weight="700" text-anchor="middle">🚀 PROJECT PORTAL</text>
+
+    <text x="0" y="70" class="sans-font" fill="#ffffff" font-size="38" font-weight="800">OrderFlow</text>
+    <text x="0" y="98" class="sans-font" fill="#94a3b8" font-size="16">Production-Grade E-Commerce Order Management &amp; Payment Engine</text>
+  </g>
+
+  <!-- LEFT: VERIFIED ARCHITECTURAL FLOW DIAGRAM -->
+  <g transform="translate(60, 160)">
+    <rect x="0" y="0" width="760" height="230" rx="12" fill="#090e1c" stroke="#1e293b" stroke-width="1.5" />
+    <text x="24" y="32" class="code-font" fill="#38bdf8" font-size="12" font-weight="700">VERIFIED SYSTEM ARCHITECTURE &amp; DATA FLOW</text>
+
+    <!-- Flow Diagram Nodes -->
+    <!-- Node 1: Client Request -->
+    <g transform="translate(24, 60)">
+      <rect x="0" y="0" width="120" height="70" rx="8" fill="#1e293b" stroke="#38bdf8" stroke-width="1"/>
+      <text x="60" y="30" class="code-font" fill="#ffffff" font-size="11" font-weight="700" text-anchor="middle">REST Client</text>
+      <text x="60" y="48" class="sans-font" fill="#94a3b8" font-size="10" text-anchor="middle">HTTP / JSON</text>
+    </g>
+
+    <path d="M 144 95 L 184 95" fill="none" stroke="#38bdf8" stroke-width="2" class="flow-line" />
+
+    <!-- Node 2: Spring Security + JWT -->
+    <g transform="translate(184, 60)">
+      <rect x="0" y="0" width="130" height="70" rx="8" fill="#1e3a8a" stroke="#60a5fa" stroke-width="1"/>
+      <text x="65" y="30" class="code-font" fill="#ffffff" font-size="11" font-weight="700" text-anchor="middle">JWT Security</text>
+      <text x="65" y="48" class="sans-font" fill="#bfdbfe" font-size="10" text-anchor="middle">Auth &amp; Filter</text>
+    </g>
+
+    <path d="M 314 95 L 354 95" fill="none" stroke="#34d399" stroke-width="2" class="flow-line" />
+
+    <!-- Node 3: Order Engine (Java 21 / Spring Boot) -->
+    <g transform="translate(354, 50)">
+      <rect x="0" y="0" width="150" height="90" rx="8" fill="#15803d" stroke="#34d399" stroke-width="1.5"/>
+      <text x="75" y="32" class="code-font" fill="#ffffff" font-size="12" font-weight="800" text-anchor="middle">Order Service</text>
+      <text x="75" y="52" class="code-font" fill="#dcfce7" font-size="10" text-anchor="middle">Java 21 + Spring 3</text>
+      <text x="75" y="70" class="sans-font" fill="#a7f3d0" font-size="9" text-anchor="middle">Idempotent Pipeline</text>
+    </g>
+
+    <path d="M 504 75 L 544 75" fill="none" stroke="#f43f5e" stroke-width="2" class="flow-line" />
+    <path d="M 504 115 L 544 115" fill="none" stroke="#f59e0b" stroke-width="2" class="flow-line" />
+
+    <!-- Node 4: PostgreSQL & Redis -->
+    <g transform="translate(544, 40)">
+      <rect x="0" y="0" width="190" height="60" rx="8" fill="#0f172a" stroke="#34d399" stroke-width="1"/>
+      <text x="95" y="26" class="code-font" fill="#34d399" font-size="11" font-weight="700" text-anchor="middle">PostgreSQL + Flyway</text>
+      <text x="95" y="44" class="sans-font" fill="#94a3b8" font-size="10" text-anchor="middle">Relational Order State</text>
+    </g>
+
+    <!-- Node 5: Razorpay Webhooks -->
+    <g transform="translate(544, 115)">
+      <rect x="0" y="0" width="190" height="60" rx="8" fill="#0f172a" stroke="#f59e0b" stroke-width="1"/>
+      <text x="95" y="26" class="code-font" fill="#f59e0b" font-size="11" font-weight="700" text-anchor="middle">Razorpay Webhooks</text>
+      <text x="95" y="44" class="sans-font" fill="#94a3b8" font-size="10" text-anchor="middle">Payment Integration</text>
+    </g>
+
+    <!-- Bottom Technology Badges Line -->
+    <g transform="translate(24, 175)" class="code-font" font-size="10">
+      <rect x="0" y="0" width="70" height="24" rx="5" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="35" y="16" fill="#e2e8f0" text-anchor="middle">Java 21</text>
+
+      <rect x="80" y="0" width="90" height="24" rx="5" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="125" y="16" fill="#60a5fa" text-anchor="middle">Spring Boot 3</text>
+
+      <rect x="180" y="0" width="80" height="24" rx="5" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="220" y="16" fill="#c084fc" text-anchor="middle">PostgreSQL</text>
+
+      <rect x="270" y="0" width="60" height="24" rx="5" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="300" y="16" fill="#f43f5e" text-anchor="middle">Redis</text>
+
+      <rect x="340" y="0" width="100" height="24" rx="5" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="390" y="16" fill="#f59e0b" text-anchor="middle">Razorpay Pay</text>
+
+      <rect x="450" y="0" width="70" height="24" rx="5" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="485" y="16" fill="#38bdf8" text-anchor="middle">Docker</text>
+
+      <rect x="530" y="0" width="110" height="24" rx="5" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="585" y="16" fill="#a7f3d0" text-anchor="middle">GitHub Actions</text>
+    </g>
+  </g>
+
+  <!-- RIGHT: CHARACTER MASCOT SHOWCASING THE PROJECT PORTAL -->
+  <g transform="translate(850, 160)">
+    <!-- Portal Frame Ring Glow -->
+    <circle cx="140" cy="115" r="100" fill="none" stroke="url(#glow-cyan-violet)" stroke-width="2" opacity="0.6"/>
+
+    <!-- ANIL RANA MASCOT PORTAL HOST -->
+    <g transform="translate(140, 100)">
+      <ellipse cx="0" cy="0" r="32" fill="#e59866"/>
+      <ellipse cx="-32" cy="0" rx="5" ry="7" fill="#d97706"/>
+      <ellipse cx="32" cy="0" rx="5" ry="7" fill="#d97706"/>
+
+      <!-- Clean Short Hair -->
+      <path d="M -32 -10 C -32 -38, 32 -38, 32 -10 C 25 -30, 14 -34, 0 -34 C -14 -34, -25 -30, -32 -10 Z" fill="#111827"/>
+
+      <!-- Signature Circular Glasses -->
+      <circle cx="-15" cy="-5" r="13" fill="rgba(0, 242, 254, 0.2)" stroke="#00f2fe" stroke-width="2.2"/>
+      <circle cx="15" cy="-5" r="13" fill="rgba(0, 242, 254, 0.2)" stroke="#00f2fe" stroke-width="2.2"/>
+      <line x1="-2" y1="-5" x2="2" y2="-5" stroke="#00f2fe" stroke-width="2.2"/>
+
+      <!-- Eyes -->
+      <circle cx="-15" cy="-5" r="3" fill="#111827"/>
+      <circle cx="15" cy="-5" r="3" fill="#111827"/>
+
+      <!-- Confident Smile -->
+      <path d="M -9 15 Q 0 21 9 15" fill="none" stroke="#9a3412" stroke-width="2" stroke-linecap="round"/>
+
+      <!-- Navy Hoodie Torso -->
+      <path d="M -40 32 Q 0 15 40 32 L 35 90 L -35 90 Z" fill="#1e293b" stroke="#00f2fe" stroke-width="1.5"/>
+    </g>
+
+    <!-- Action Link Button Visual -->
+    <g transform="translate(30, 185)">
+      <rect x="0" y="0" width="220" height="38" rx="8" fill="#2563eb" />
+      <text x="110" y="24" class="code-font" fill="#ffffff" font-size="12" font-weight="700" text-anchor="middle">🔗 Explore OrderFlow Repository →</text>
+    </g>
+  </g>
+</svg>
